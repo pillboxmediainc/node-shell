@@ -11,5 +11,4 @@ process.stdin.on('data', data => {
   } else {
     process.stdout.write('You typed: ' + cmd);
   }
-  process.stdout.write(`\n${prompt}`);
 });
