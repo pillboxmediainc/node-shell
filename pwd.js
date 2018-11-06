@@ -1,6 +1,4 @@
-// const prompt = ;
-module.exports = function () {
+module.exports = function() {
   process.stdout.write(process.cwd());
   process.stdout.write(`\nprompt > `);
 };
-
